@@ -1,4 +1,4 @@
-name: Test on Merge
+name: Build, Test and Publish Docker Image
 
 on:
   push:
@@ -6,13 +6,13 @@ on:
       - main
 
 jobs:
-  build-and-test:
+  build-test-publish:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-          
+
       - name: Set up Go
         uses: actions/setup-go@v4
         with:
@@ -23,3 +23,4 @@ jobs:
 
       - name: Test application
         run: go test ./...
+
