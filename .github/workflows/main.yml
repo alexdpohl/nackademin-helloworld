@@ -27,3 +27,4 @@ jobs:
 
       - name: Test application
         run: go test ./...
+        
