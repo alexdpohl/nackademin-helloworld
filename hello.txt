@@ -2,3 +2,6 @@ This is a .txt file!
 
 2023-05-18 13:30
 Updating the .txt file.The purpose is to push the changes to my GitHub repository to test my CI-workflow.
+
+2023-05-19 13:11
+Updating this file again. The purpose is to test the changes I made to my CI-workflow involving node.js compatibility.
